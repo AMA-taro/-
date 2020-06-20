@@ -1,0 +1,8 @@
+function Twitter_Icon_click() {
+      target = document.getElementById("anime_twitter_icon");
+      if (target.className == null || target.className=="") {
+        target.className = "active";
+      } else {
+        target.className = "";
+      }
+    }
